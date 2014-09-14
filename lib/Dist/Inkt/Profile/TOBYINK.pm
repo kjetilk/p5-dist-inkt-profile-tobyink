@@ -35,7 +35,18 @@ with qw(
 	Dist::Inkt::Role::Test::TestSuite
 	Dist::Inkt::Role::Test::Kwalitee
 	Dist::Inkt::Role::Test::Changes
+	Dist::Inkt::Role::Hg
 );
+
+before Release => sub
+{
+	my $self = shift;
+	my $tarball = Path::Tiny::path($_[0] || sprintf('%s.tar.gz', $self->targetdir));
+	$self->log("Installing locally...");
+	if (system("cpanm", $tarball)) {
+		die "Could not be installed locally!";
+	}
+};
 
 after Release => sub
 {
