@@ -19,5 +19,12 @@
 `Dist-Inkt-Profile-TOBYINK 0.019 cpan:TOBYINK`
 	issued  2014-09-14;
 	changeset [
-		item "Include Dist::Inkt::Role::Release."^^Change;
+		item "use Dist::Inkt::Role::Release"^^Change;
+	].
+
+`Dist-Inkt-Profile-TOBYINK 0.020 cpan:TOBYINK`
+	issued  2014-09-14;
+	changeset [
+		item "use Dist::Inkt::Role::Test::Changes"^^Change;
+		item "use Test::EOL"^^Change;
 	].

@@ -5,7 +5,7 @@ use warnings;
 package Dist::Inkt::Role::Test::Whitespace;
 
 our $AUTHORITY = 'cpan:TOBYINK';
-our $VERSION   = '0.019';
+our $VERSION   = '0.020';
 
 use Moose::Role;
 use Types::Standard "Bool";
