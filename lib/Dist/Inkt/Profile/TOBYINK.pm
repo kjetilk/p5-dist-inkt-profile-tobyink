@@ -45,8 +45,8 @@ after Release => sub
 	return $self->log("$dest does not exist; cannot move tarball safely away")
 		unless -d $dest;
 	
-	$self->log("Moving $tarball to $dest");
 	my $tarball = Path::Tiny::path($_[0] || sprintf('%s.tar.gz', $self->targetdir));
+	$self->log("Moving $tarball to $dest");
 	$tarball->move( $dest->child($tarball->basename) );
 };
 
