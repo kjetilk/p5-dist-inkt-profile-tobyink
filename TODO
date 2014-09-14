@@ -1,7 +1,3 @@
-- Dist::Inkt::Role::Release
-	- prompts, then uploads to CPAN
-	- runs after tests
-
 - Dist::Inkt::Role::HgTag
 	- integrates with DIR::Release
 	- does: hg tag $VERSION; hg push
