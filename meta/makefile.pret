@@ -7,7 +7,10 @@
 	:runtime-requirement    [ :on "perl 5.010001"^^:CpanId ];
 	:runtime-requirement    [ :on "Dist::Inkt 0.016"^^:CpanId ];
 	:runtime-requirement    [ :on "Dist::Inkt::DOAP 0.017"^^:CpanId ];
-	:runtime-requirement    [ :on "Dist::Inkt::Role::Test"^^:CpanId ];
+	:runtime-requirement    [ :on "Dist::Inkt::Role::Test::TestSuite"^^:CpanId ];
+	:runtime-requirement    [ :on "Dist::Inkt::Role::Test::SaneVersions"^^:CpanId ];
+	:runtime-requirement    [ :on "Dist::Inkt::Role::Test::BumpedVersion"^^:CpanId ];
+	:runtime-requirement    [ :on "Dist::Inkt::Role::Test::Kwalitee"^^:CpanId ];
 	:runtime-requirement    [ :on "Test::Tabs"^^:CpanId ];
 	.
 
