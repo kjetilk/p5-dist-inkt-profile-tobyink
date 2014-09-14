@@ -38,6 +38,8 @@ with qw(
 
 after Release => sub
 {
+	my $self = shift;
+	
 	require Path::Tiny;
 	my $dest = Path::Tiny::path("~")->child("perl5/published");
 	return $self->log("$dest does not exist; cannot move tarball safely away")
