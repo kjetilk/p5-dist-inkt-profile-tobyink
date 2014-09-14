@@ -6,6 +6,3 @@
 	- syntax
 	- coverage
 	- spelling
-
-- Dist::Inkt::Role::Test::Changes
-	- check that RDF changelog data covers current version
