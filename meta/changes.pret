@@ -15,3 +15,9 @@
 	changeset [
 		item "Include build-time testing of distribution kwalitee."^^Change;
 	].
+
+`Dist-Inkt-Profile-TOBYINK 0.019 cpan:TOBYINK`
+	issued  2014-09-14;
+	changeset [
+		item "Include Dist::Inkt::Role::Release."^^Change;
+	].
