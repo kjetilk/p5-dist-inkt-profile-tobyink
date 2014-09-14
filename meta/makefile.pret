@@ -11,6 +11,8 @@
 	:runtime-requirement    [ :on "Dist::Inkt::Role::Test::SaneVersions"^^:CpanId ];
 	:runtime-requirement    [ :on "Dist::Inkt::Role::Test::BumpedVersion"^^:CpanId ];
 	:runtime-requirement    [ :on "Dist::Inkt::Role::Test::Kwalitee"^^:CpanId ];
+	:runtime-requirement    [ :on "Dist::Inkt::Role::Release"^^:CpanId ];
 	:runtime-requirement    [ :on "Test::Tabs"^^:CpanId ];
+	:runtime-requirement    [ :on "Test::EOL"^^:CpanId ];
 	.
 
