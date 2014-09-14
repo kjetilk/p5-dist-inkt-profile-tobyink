@@ -2,10 +2,6 @@
 	- prompts, then uploads to CPAN
 	- runs after tests
 
-- Dist::Inkt::Role::Test::Kwalitee
-	- runs cpants_lint.pl on tarball
-	- runs after building tarball
-
 - Dist::Inkt::Role::HgTag
 	- integrates with DIR::Release
 	- does: hg tag $VERSION; hg push

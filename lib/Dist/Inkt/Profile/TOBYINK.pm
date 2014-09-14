@@ -32,6 +32,7 @@ with qw(
 	Dist::Inkt::Role::Test::BumpedVersion
 	Dist::Inkt::Role::Test::SaneVersions
 	Dist::Inkt::Role::Test::TestSuite
+	Dist::Inkt::Role::Test::Kwalitee
 );
 
 1;
