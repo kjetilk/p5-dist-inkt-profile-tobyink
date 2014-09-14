@@ -9,3 +9,9 @@
 	changeset [
 		item "Start of build-time testing."^^Change;
 	].
+
+`Dist-Inkt-Profile-TOBYINK 0.018 cpan:TOBYINK`
+	issued  2014-09-14;
+	changeset [
+		item "Include build-time testing of distribution kwalitee."^^Change;
+	].
