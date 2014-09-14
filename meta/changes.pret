@@ -28,3 +28,9 @@
 		item "use Dist::Inkt::Role::Test::Changes"^^Change;
 		item "use Test::EOL"^^Change;
 	].
+
+`Dist-Inkt-Profile-TOBYINK 0.021 cpan:TOBYINK`
+	issued  2014-09-14;
+	changeset [
+		item "Install distribution before releasing it."^^Change;
+	].

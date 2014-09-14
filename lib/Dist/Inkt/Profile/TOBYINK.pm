@@ -1,9 +1,11 @@
 package Dist::Inkt::Profile::TOBYINK;
 
 our $AUTHORITY = 'cpan:TOBYINK';
-our $VERSION   = '0.020';
+our $VERSION   = '0.021';
 
 use Moose;
+use Types::Standard qw(Bool);
+use namespace::autoclean;
 
 extends 'Dist::Inkt';
 
@@ -38,9 +40,12 @@ with qw(
 	Dist::Inkt::Role::Hg
 );
 
+has skip_installation => ( is => "ro", isa => Bool, default => 0 );
+
 before Release => sub
 {
 	my $self = shift;
+	return if $self->skip_installation;
 	my $tarball = Path::Tiny::path($_[0] || sprintf('%s.tar.gz', $self->targetdir));
 	$self->log("Installing locally...");
 	if (system("cpanm", $tarball)) {
