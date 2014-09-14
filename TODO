@@ -1,0 +1,19 @@
+- Dist::Inkt::Role::Release
+	- prompts, then uploads to CPAN
+	- runs after tests
+
+- Dist::Inkt::Role::Test
+- Dist::Inkt::Role::Test::Suite
+	- runs `t` and `xt` tests with RELEASE_TESTING and EXTENDED_TESTING
+	- runs before building tarball
+- Dist::Inkt::Role::Test::VersionOK
+	- checks all pm files have a version number
+	- checks all pm files have same version number
+	- checks this version number is not already on CPAN
+- Dist::Inkt::Role::Test::Kwalitee
+	- runs cpants_lint.pl on tarball
+	- runs after building tarball
+
+- Dist::Inkt::Role::HgTag
+	- integrates with DIR::Release
+	- does: hg tag $VERSION; hg push
