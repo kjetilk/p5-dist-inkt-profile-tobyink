@@ -6,6 +6,7 @@
 	:test-requirement       [ :on "Test::More 0.96"^^:CpanId ];
 	:runtime-requirement    [ :on "Dist::Inkt 0.016"^^:CpanId ];
 	:runtime-requirement    [ :on "Dist::Inkt::DOAP 0.017"^^:CpanId ];
+	:runtime-requirement    [ :on "Dist::Inkt::Role::Test"^^:CpanId ];
 	:runtime-requirement    [ :on "Test::Tabs"^^:CpanId ];
 	.
 

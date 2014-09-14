@@ -4,3 +4,8 @@
 	issued  2014-05-26;
 	label   "Initial release".
 
+`Dist-Inkt-Profile-TOBYINK 0.017 cpan:TOBYINK`
+	issued  2014-09-14;
+	changeset [
+		item "Start of build-time testing."^^Change;
+	].
