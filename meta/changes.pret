@@ -40,3 +40,10 @@
 	changeset [
 		item "Add missing dependency on Dist::Inkt::Role::Hg."^^Packaging;
 	].
+
+`Dist-Inkt-Profile-TOBYINK 0.023 cpan:TOBYINK`
+	issued  2014-09-17;
+	changeset [
+		item "Require a more recent version of Dist::Inkt."^^Packaging;
+		item "Require a more recent version of Dist::Inkt::Role::Hg."^^Packaging;
+	].
