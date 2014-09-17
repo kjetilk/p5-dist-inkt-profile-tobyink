@@ -34,3 +34,9 @@
 	changeset [
 		item "Install distribution before releasing it."^^Change;
 	].
+
+`Dist-Inkt-Profile-TOBYINK 0.022 cpan:TOBYINK`
+	issued  2014-09-17;
+	changeset [
+		item "Add missing dependency on Dist::Inkt::Role::Hg."^^Packaging;
+	].
