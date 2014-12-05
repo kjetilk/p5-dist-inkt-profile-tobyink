@@ -31,13 +31,9 @@ with qw(
 	Dist::Inkt::Role::WriteINSTALL
 	Dist::Inkt::Role::SignDistribution
 	Dist::Inkt::Role::Release
-	Dist::Inkt::Role::Test::Whitespace
 	Dist::Inkt::Role::Test::BumpedVersion
-	Dist::Inkt::Role::Test::SaneVersions
 	Dist::Inkt::Role::Test::TestSuite
-	Dist::Inkt::Role::Test::Kwalitee
 	Dist::Inkt::Role::Test::Changes
-	Dist::Inkt::Role::Hg
 );
 
 has skip_installation => ( is => "ro", isa => Bool, default => 0 );
