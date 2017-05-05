@@ -52,5 +52,5 @@
 	issued  2017-05-05;
 	changeset [
 		item "Require a more recent version of Dist::Inkt."^^Packaging;
-		item "Use Dist::Inkt::Role::StaticInstall."^^Upate;
+		item "Use Dist::Inkt::Role::StaticInstall."^^Update;
 	].
