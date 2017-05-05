@@ -1,7 +1,7 @@
 package Dist::Inkt::Profile::TOBYINK;
 
 our $AUTHORITY = 'cpan:TOBYINK';
-our $VERSION   = '0.023';
+our $VERSION   = '0.024';
 
 use Moose;
 use Types::Standard qw(Bool);
