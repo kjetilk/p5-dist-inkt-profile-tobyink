@@ -47,3 +47,10 @@
 		item "Require a more recent version of Dist::Inkt."^^Packaging;
 		item "Require a more recent version of Dist::Inkt::Role::Hg."^^Packaging;
 	].
+
+`Dist-Inkt-Profile-TOBYINK 0.024 cpan:TOBYINK`
+	issued  2017-05-05;
+	changeset [
+		item "Require a more recent version of Dist::Inkt."^^Packaging;
+		item "Use Dist::Inkt::Role::StaticInstall."^^Update;
+	].
