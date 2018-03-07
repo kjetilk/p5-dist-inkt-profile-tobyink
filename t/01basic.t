@@ -4,7 +4,7 @@
 
 =head1 PURPOSE
 
-Test that Dist::Inkt::Profile::TOBYINK compiles.
+Test that Dist::Inkt::Profile::KJETILK compiles.
 
 =head1 AUTHOR
 
@@ -24,7 +24,7 @@ use strict;
 use warnings;
 use Test::More;
 
-use_ok('Dist::Inkt::Profile::TOBYINK');
+use_ok('Dist::Inkt::Profile::KJETILK');
 
 done_testing;
 
