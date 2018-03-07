@@ -1,56 +1,5 @@
 # This file acts as the project's changelog.
 
-`Dist-Inkt-Profile-TOBYINK 0.016 cpan:TOBYINK`
-	issued  2014-05-26;
-	label   "Initial release".
-
-`Dist-Inkt-Profile-TOBYINK 0.017 cpan:TOBYINK`
-	issued  2014-09-14;
-	changeset [
-		item "Start of build-time testing."^^Change;
-	].
-
-`Dist-Inkt-Profile-TOBYINK 0.018 cpan:TOBYINK`
-	issued  2014-09-14;
-	changeset [
-		item "Include build-time testing of distribution kwalitee."^^Change;
-	].
-
-`Dist-Inkt-Profile-TOBYINK 0.019 cpan:TOBYINK`
-	issued  2014-09-14;
-	changeset [
-		item "use Dist::Inkt::Role::Release"^^Change;
-	].
-
-`Dist-Inkt-Profile-TOBYINK 0.020 cpan:TOBYINK`
-	issued  2014-09-14;
-	changeset [
-		item "use Dist::Inkt::Role::Test::Changes"^^Change;
-		item "use Test::EOL"^^Change;
-	].
-
-`Dist-Inkt-Profile-TOBYINK 0.021 cpan:TOBYINK`
-	issued  2014-09-14;
-	changeset [
-		item "Install distribution before releasing it."^^Change;
-	].
-
-`Dist-Inkt-Profile-TOBYINK 0.022 cpan:TOBYINK`
-	issued  2014-09-17;
-	changeset [
-		item "Add missing dependency on Dist::Inkt::Role::Hg."^^Packaging;
-	].
-
-`Dist-Inkt-Profile-TOBYINK 0.023 cpan:TOBYINK`
-	issued  2014-09-17;
-	changeset [
-		item "Require a more recent version of Dist::Inkt."^^Packaging;
-		item "Require a more recent version of Dist::Inkt::Role::Hg."^^Packaging;
-	].
-
-`Dist-Inkt-Profile-TOBYINK 0.024 cpan:TOBYINK`
-	issued  2017-05-05;
-	changeset [
-		item "Require a more recent version of Dist::Inkt."^^Packaging;
-		item "Use Dist::Inkt::Role::StaticInstall."^^Update;
-	].
+`Dist-Inkt-Profile-KJETILK 0.100 cpan:KJETILK`
+	issued  2018-03-07;
+	label   "Initial release based on Dist-Inkt-Profile-TOBYINK".
