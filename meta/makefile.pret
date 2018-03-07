@@ -2,17 +2,16 @@
 
 @prefix : <http://ontologi.es/doap-deps#>.
 
-`Dist-Inkt-Profile-TOBYINK`
+`Dist-Inkt-Profile-KJETILK`
 	:test-requirement       [ :on "Test::More 0.96"^^:CpanId ];
-	:runtime-requirement    [ :on "perl 5.010001"^^:CpanId ];
+	:runtime-requirement    [ :on "perl 5.014"^^:CpanId ];
 	:runtime-requirement    [ :on "Dist::Inkt 0.024"^^:CpanId ];
-	:runtime-requirement    [ :on "Dist::Inkt::DOAP 0.017"^^:CpanId ];
+	:runtime-requirement    [ :on "Dist::Inkt::DOAP 0.110"^^:CpanId ];
 	:runtime-requirement    [ :on "Dist::Inkt::Role::Test::TestSuite"^^:CpanId ];
 	:runtime-requirement    [ :on "Dist::Inkt::Role::Test::SaneVersions"^^:CpanId ];
 	:runtime-requirement    [ :on "Dist::Inkt::Role::Test::BumpedVersion"^^:CpanId ];
 	:runtime-requirement    [ :on "Dist::Inkt::Role::Test::Kwalitee"^^:CpanId ];
 	:runtime-requirement    [ :on "Dist::Inkt::Role::Release"^^:CpanId ];
-	:runtime-requirement    [ :on "Dist::Inkt::Role::Hg 0.004"^^:CpanId ];
 	:runtime-requirement    [ :on "Test::Tabs"^^:CpanId ];
 	:runtime-requirement    [ :on "Test::EOL"^^:CpanId ];
 	.
