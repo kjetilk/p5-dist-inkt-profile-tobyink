@@ -1,7 +1,7 @@
 package Dist::Inkt::Profile::KJETILK;
 
 our $AUTHORITY = 'cpan:KJETILK';
-our $VERSION   = '0.024';
+our $VERSION   = '0.100';
 
 use Moose;
 use Types::Standard qw(Bool);
@@ -38,32 +38,7 @@ with qw(
 	Dist::Inkt::Role::Test::Changes
 );
 
-has skip_installation => ( is => "ro", isa => Bool, default => 0 );
 
-before Release => sub
-{
-	my $self = shift;
-	return if $self->skip_installation;
-	my $tarball = Path::Tiny::path($_[0] || sprintf('%s.tar.gz', $self->targetdir));
-	$self->log("Installing locally...");
-	if (system("cpanm", $tarball)) {
-		die "Could not be installed locally!";
-	}
-};
-
-after Release => sub
-{
-	my $self = shift;
-	
-	require Path::Tiny;
-	my $dest = Path::Tiny::path("~")->child("perl5/published");
-	return $self->log("$dest does not exist; cannot move tarball safely away")
-		unless -d $dest;
-	
-	my $tarball = Path::Tiny::path($_[0] || sprintf('%s.tar.gz', $self->targetdir));
-	$self->log("Moving $tarball to $dest");
-	$tarball->move( $dest->child($tarball->basename) );
-};
 
 1;
 
@@ -76,11 +51,6 @@ __END__
 =head1 NAME
 
 Dist::Inkt::Profile::KJETILK - a Dist::Inkt profile for KJETILK
-
-=head1 BUGS
-
-Please report any bugs to
-L<http://rt.cpan.org/Dist/Display.html?Queue=Dist-Inkt-Profile-KJETILK>.
 
 =head1 SEE ALSO
 
