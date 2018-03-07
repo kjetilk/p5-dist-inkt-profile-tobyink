@@ -7,6 +7,7 @@
 	:shortdesc            "a Dist::Inkt profile for KJETILK";
 	:homepage             <https://metacpan.org/release/Dist-Inkt-Profile-KJETILK>;
 	:download-page        <https://metacpan.org/release/Dist-Inkt-Profile-KJETILK>;
+	:bug-database         <https://github.com/kjetilk/p5-dist-inkt-profile-tobyink/issues>;
 	:repository           [ a :GitRepository; :browse <https://github.com/kjetilk/p5-dist-inkt-profile-tobyink> ];
 	:created              2018-03-07;
 	:license              <http://dev.perl.org/licenses/>;
