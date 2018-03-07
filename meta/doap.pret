@@ -2,18 +2,14 @@
 
 @prefix : <http://usefulinc.com/ns/doap#>.
 
-`Dist-Inkt-Profile-TOBYINK`
+`Dist-Inkt-Profile-KJETILK`
 	:programming-language "Perl" ;
-	:shortdesc            "a Dist::Inkt profile for TOBYINK";
-	:homepage             <https://metacpan.org/release/Dist-Inkt-Profile-TOBYINK>;
-	:download-page        <https://metacpan.org/release/Dist-Inkt-Profile-TOBYINK>;
-	:bug-database         <http://rt.cpan.org/Dist/Display.html?Queue=Dist-Inkt-Profile-TOBYINK>;
-	:repository           [ a :GitRepository; :browse <https://github.com/tobyink/p5-dist-inkt-profile-tobyink> ];
-	:created              2014-05-26;
+	:shortdesc            "a Dist::Inkt profile for KJETILK";
+	:homepage             <https://metacpan.org/release/Dist-Inkt-Profile-KJETILK>;
+	:download-page        <https://metacpan.org/release/Dist-Inkt-Profile-KJETILK>;
+	:repository           [ a :GitRepository; :browse <https://github.com/kjetilk/p5-dist-inkt-profile-tobyink> ];
+	:created              2018-03-07;
 	:license              <http://dev.perl.org/licenses/>;
-	:maintainer           cpan:TOBYINK;
-	:developer            cpan:TOBYINK.
-
-<http://dev.perl.org/licenses/>
-	dc:title  "the same terms as the perl 5 programming language system itself".
+	:maintainer           cpan:KJETILK;
+	:developer            cpan:TOBYINK, cpan:KJETILK.
 
