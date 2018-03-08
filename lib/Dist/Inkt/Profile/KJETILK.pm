@@ -12,6 +12,7 @@ extends 'Dist::Inkt';
 with qw(
 	Dist::Inkt::Role::ReadMetaDir
    Dist::Inkt::Role::AddExternalRDF
+	Dist::Inkt::Role::Git
 	Dist::Inkt::Role::ProcessDOAP
 	Dist::Inkt::Role::ProcessDOAPDeps
 	Dist::Inkt::Role::CPANfile
