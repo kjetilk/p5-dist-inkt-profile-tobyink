@@ -3,3 +3,7 @@
 `Dist-Inkt-Profile-KJETILK 0.100 cpan:KJETILK`
 	issued  2018-03-07;
 	label   "Initial release based on Dist-Inkt-Profile-TOBYINK".
+
+`Dist-Inkt-Profile-KJETILK 0.101 cpan:KJETILK`
+	issued  2018-03-08;
+	label   "Add the Git Role".
