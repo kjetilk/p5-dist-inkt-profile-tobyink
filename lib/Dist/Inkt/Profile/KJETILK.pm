@@ -1,7 +1,7 @@
 package Dist::Inkt::Profile::KJETILK;
 
 our $AUTHORITY = 'cpan:KJETILK';
-our $VERSION   = '0.100';
+our $VERSION   = '0.101';
 
 use Moose;
 use Types::Standard qw(Bool);
